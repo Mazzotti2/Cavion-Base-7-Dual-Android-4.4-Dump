@@ -1,0 +1,599 @@
+Processor	: ARMv7 Processor rev 5 (v7l)
+processor	: 0
+BogoMIPS	: 57.14
+
+processor	: 1
+BogoMIPS	: 57.14
+
+Features	: swp half thumb fastmult vfp edsp thumbee neon vfpv3 tls vfpv4 idiva idivt 
+CPU implementer	: 0x41
+CPU architecture: 7
+CPU variant	: 0x0
+CPU part	: 0xc07
+CPU revision	: 5
+
+Hardware	: sun8i
+Revision	: 0000
+Serial		: 456303337445c670d07
+
+----------------------------------------------------
+
+armeabi-v7a
+
+----------------------------------------------------
+
+Cavion Base 7 Dual
+
+----------------------------------------------------
+
+iNet
+
+----------------------------------------------------
+
+exdroid
+
+----------------------------------------------------
+
+sun8i
+
+---------------------------------------------------
+
+4.4.2
+
+---------------------------------------------------
+
+/system/bin/sh: uname: not found
+
+---------------------------------------------------
+
+Linux version 3.4.39 (inet_ldw@superFAE03) (gcc version 4.6.3 20120201 (prerelease) (crosstool-NG linaro-1.13.1-2012.02-20120222 - Linaro GCC 2012.02) ) #4 SMP PREEMPT Thu Jan 22 18:15:33 CST 2015
+
+---------------------------------------------------
+
+MemTotal:         524288 kB
+MemFree:           32836 kB
+Buffers:             212 kB
+Cached:           112520 kB
+SwapCached:            0 kB
+Active:           229528 kB
+Inactive:          88172 kB
+Active(anon):     205000 kB
+Inactive(anon):      296 kB
+Active(file):      24528 kB
+Inactive(file):    87876 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+HighTotal:             0 kB
+HighFree:              0 kB
+LowTotal:         428384 kB
+LowFree:           32836 kB
+SwapTotal:        131068 kB
+SwapFree:         131068 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        204964 kB
+Mapped:           102168 kB
+Shmem:               328 kB
+Slab:              39952 kB
+SReclaimable:       7364 kB
+SUnreclaim:        32588 kB
+KernelStack:        6280 kB
+PageTables:         8780 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      345260 kB
+Committed_AS:   10710036 kB
+VmallocTotal:     499712 kB
+VmallocUsed:       48520 kB
+VmallocChunk:     212992 kB
+
+---------------------------------------------------
+
+lrwxrwxrwx root     root              1970-01-01 01:00 UDISK -> /dev/block/nandk
+lrwxrwxrwx root     root              1970-01-01 01:00 boot -> /dev/block/nandc
+lrwxrwxrwx root     root              1970-01-01 01:00 bootloader -> /dev/block/nanda
+lrwxrwxrwx root     root              1970-01-01 01:00 cache -> /dev/block/nandh
+lrwxrwxrwx root     root              1970-01-01 01:00 data -> /dev/block/nande
+lrwxrwxrwx root     root              1970-01-01 01:00 databk -> /dev/block/nandi
+lrwxrwxrwx root     root              1970-01-01 01:00 env -> /dev/block/nandb
+lrwxrwxrwx root     root              1970-01-01 01:00 misc -> /dev/block/nandf
+lrwxrwxrwx root     root              1970-01-01 01:00 private -> /dev/block/nandj
+lrwxrwxrwx root     root              1970-01-01 01:00 recovery -> /dev/block/nandg
+lrwxrwxrwx root     root              1970-01-01 01:00 system -> /dev/block/nandd
+
+--------------------------------------------------
+
+rootfs / rootfs rw 0 0
+tmpfs /dev tmpfs rw,nosuid,relatime,mode=755 0 0
+devpts /dev/pts devpts rw,relatime,mode=600 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,relatime 0 0
+none /acct cgroup rw,relatime,cpuacct 0 0
+tmpfs /mnt/secure tmpfs rw,relatime,mode=700 0 0
+tmpfs /mnt/asec tmpfs rw,relatime,mode=755,gid=1000 0 0
+tmpfs /mnt/obb tmpfs rw,relatime,mode=755,gid=1000 0 0
+none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+/dev/block/by-name/system /system ext4 ro,relatime,data=ordered 0 0
+/dev/block/by-name/cache /cache ext4 rw,nosuid,nodev,noatime,nomblk_io_submit,data=ordered 0 0
+/dev/block/by-name/data /data ext4 rw,nosuid,nodev,noatime,nomblk_io_submit,noauto_da_alloc,data=ordered 0 0
+/dev/block/vold/93:80 /mnt/sdcard vfat rw,dirsync,nosuid,nodev,noexec,relatime,uid=1000,gid=1015,fmask=0702,dmask=0702,allow_utime=0020,codepage=cp437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 0
+/dev/block/vold/93:80 /mnt/secure/asec vfat rw,dirsync,nosuid,nodev,noexec,relatime,uid=1000,gid=1015,fmask=0702,dmask=0702,allow_utime=0020,codepage=cp437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 0
+
+--------------------------------------------------
+
+Filesystem               Size     Used     Free   Blksize
+/dev                   209.2M   128.0K   209.0M   4096
+/mnt/secure            209.2M     0.0K   209.2M   4096
+/mnt/asec              209.2M     0.0K   209.2M   4096
+/mnt/obb               209.2M     0.0K   209.2M   4096
+/system                755.9M   447.9M   308.0M   4096
+/cache                 503.9M     8.5M   495.4M   4096
+/data                  787.4M   277.8M   509.6M   4096
+/mnt/sdcard              1.0G   941.7M   112.2M   4096
+/mnt/secure/asec         1.0G   941.7M   112.2M   4096
+
+--------------------------------------------------
+
+Filesystem               Size     Used     Free   Blksize
+-h: No such file or directory
+
+-------------------------------------------------
+
+/system/bin/sh: /proc/device-tree: not found
+
+--------------------------------------------------
+
+adb shell su -c "dd if=/dev/block/by-name/boot of=/sdcard/boot.img"
+32768+0 records in
+32768+0 records out
+16777216 bytes transferred in 0.953 secs (17604633 bytes/sec)
+
+--------------------------------------------------
+
+Physical size: 600x1024
+
+--------------------------------------------------
+
+Physical density: 160
+
+-------------------------------------------------
+
+adb shell ls /dev/graphics
+fb0
+fb1
+fb2
+fb3
+fb4
+fb5
+fb6
+fb7
+
+--------------------------------------------------
+
+getevent: invalid option -1
+Usage: getevent [-t] [-n] [-s switchmask] [-S] [-v [mask]] [-d] [-p] [-i] [-l] [-q] [-c count] [-r] [device]
+    -t: show time stamps
+    -n: don't print newlines
+    -s: print switch states for given bits
+    -S: print all switch states
+    -v: verbosity mask (errs=1, dev=2, name=4, info=8, vers=16, pos. events=32, props=64)
+    -d: show HID descriptor, if available
+    -p: show possible events (errs, dev, name, pos. events)
+    -i: show all device info and possible events
+    -l: label event types and names in plain text
+    -q: quiet (clear verbosity mask)
+    -c: print given number of events then exit
+    -r: print rate events are received
+
+-------------------------------------------------
+
+adb shell getevent -p
+add device 1: /dev/input/event6
+  name:     "mxc400x"
+  events:
+    ABS (0003): 0000  : value 0, min -8192, max 8192, fuzz 0, flat 0, resolution 0
+                0001  : value 0, min -8192, max 8192, fuzz 0, flat 0, resolution 0
+                0002  : value 0, min -8192, max 8192, fuzz 0, flat 0, resolution 0
+                0008  : value 0, min 0, max 100, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 2: /dev/input/event5
+  name:     "bma250"
+  events:
+    ABS (0003): 0000  : value -8, min -19613100, max 19613100, fuzz 0, flat 0, resolution 0
+                0001  : value 4, min -19613100, max 19613100, fuzz 0, flat 0, resolution 0
+                0002  : value -260, min -19613100, max 19613100, fuzz 0, flat 0, resolution 0
+                0028  : value 0, min 0, max 0, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 3: /dev/input/event4
+  name:     "sunxi-keyboard"
+  events:
+    KEY (0001): 001c  0066  0072  0073  008b 
+  input props:
+    <none>
+add device 4: /dev/input/event3
+  name:     "gslX680"
+  events:
+    KEY (0001): 008b  009e  00ac  00d9  014a 
+    ABS (0003): 0030  : value 0, min 0, max 255, fuzz 0, flat 0, resolution 0
+                0032  : value 0, min 0, max 200, fuzz 0, flat 0, resolution 0
+                0035  : value 0, min 0, max 1024, fuzz 0, flat 0, resolution 0
+                0036  : value 0, min 0, max 600, fuzz 0, flat 0, resolution 0
+                0039  : value 0, min 0, max 11, fuzz 0, flat 0, resolution 0
+  input props:
+    INPUT_PROP_DIRECT
+add device 5: /dev/input/event0
+  name:     "axp22-supplyer"
+  events:
+    KEY (0001): 0074 
+  input props:
+    <none>
+add device 6: /dev/input/event2
+  name:     "headset"
+  events:
+    KEY (0001): 00e2 
+  input props:
+    <none>
+add device 7: /dev/input/event1
+  name:     "sunxi-ths"
+  events:
+    ABS (0003): 0028  : value 32, min -50, max 180, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+could not get driver version for /dev/input/mice, Not a typewriter
+
+-----------------------------------------
+
+INPUT MANAGER (dumpsys input)
+
+Event Hub State:
+  BuiltInKeyboardId: -2
+  Devices:
+    -1: Virtual
+      Classes: 0x40000023
+      Path: <virtual>
+      Descriptor: a718a782d34bc767f4689c232d64d527998ea7fd
+      Location: 
+      ControllerNumber: 0
+      UniqueId: <virtual>
+      Identifier: bus=0x0000, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Virtual.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    3: sunxi-keyboard
+      Classes: 0x00000001
+      Path: /dev/input/event4
+      Descriptor: 485d69228e24f5e46da1598745890b214130dbc4
+      Location: sunxikbd/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0x0001, version=0x0100
+      KeyLayoutFile: /system/usr/keylayout/sunxi-keyboard.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    4: gslX680
+      Classes: 0x00000015
+      Path: /dev/input/event3
+      Descriptor: 7d7eeb71ea7765ef9584a43b6c32b201b90835d3
+      Location: 
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0018, vendor=0x0000, product=0x0000, version=0x0000
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: /system/usr/idc/tp.idc
+      HaveKeyboardLayoutOverlay: false
+    5: axp22-supplyer
+      Classes: 0x00000001
+      Path: /dev/input/event0
+      Descriptor: 485d69228e24f5e46da1598745890b214130dbc4
+      Location: m1kbd/input2
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0x0001, version=0x0100
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+    6: headset
+      Classes: 0x00000001
+      Path: /dev/input/event2
+      Descriptor: 99d4086daf0596433a6b43722ccf792b235f8bca
+      Location: headset/input0
+      ControllerNumber: 0
+      UniqueId: 
+      Identifier: bus=0x0019, vendor=0x0001, product=0xffff, version=0x0100
+      KeyLayoutFile: /system/usr/keylayout/Generic.kl
+      KeyCharacterMapFile: /system/usr/keychars/Generic.kcm
+      ConfigurationFile: 
+      HaveKeyboardLayoutOverlay: false
+
+Input Reader State:
+  Device -1: Virtual
+    Generation: 2
+    IsExternal: false
+    Sources: 0x00000301
+    KeyboardType: 2
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+      KeyboardType: 2
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Device 3: sunxi-keyboard
+    Generation: 10
+    IsExternal: false
+    Sources: 0x00000101
+    KeyboardType: 1
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Device 4: gslX680
+    Generation: 12
+    IsExternal: false
+    Sources: 0x00001103
+    KeyboardType: 1
+    Motion Ranges:
+      X: source=0x00001002, min=0.000, max=599.000, flat=0.000, fuzz=0.000, resolution=0.000
+      Y: source=0x00001002, min=0.000, max=1023.000, flat=0.000, fuzz=0.000, resolution=0.000
+      PRESSURE: source=0x00001002, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      SIZE: source=0x00001002, min=0.000, max=1.000, flat=0.000, fuzz=0.000, resolution=0.000
+      TOUCH_MAJOR: source=0x00001002, min=0.000, max=1186.834, flat=0.000, fuzz=0.000, resolution=0.000
+      TOUCH_MINOR: source=0x00001002, min=0.000, max=1186.834, flat=0.000, fuzz=0.000, resolution=0.000
+      TOOL_MAJOR: source=0x00001002, min=0.000, max=1186.834, flat=0.000, fuzz=0.000, resolution=0.000
+      TOOL_MINOR: source=0x00001002, min=0.000, max=1186.834, flat=0.000, fuzz=0.000, resolution=0.000
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+    Touch Input Mapper:
+      Parameters:
+        GestureMode: spots
+        DeviceType: touchScreen
+        AssociatedDisplay: hasAssociatedDisplay=true, isExternal=false
+        OrientationAware: true
+      Raw Touch Axes:
+        X: min=0, max=1024, flat=0, fuzz=0, resolution=0
+        Y: min=0, max=600, flat=0, fuzz=0, resolution=0
+        Pressure: unknown range
+        TouchMajor: min=0, max=255, flat=0, fuzz=0, resolution=0
+        TouchMinor: unknown range
+        ToolMajor: min=0, max=200, flat=0, fuzz=0, resolution=0
+        ToolMinor: unknown range
+        Orientation: unknown range
+        Distance: unknown range
+        TiltX: unknown range
+        TiltY: unknown range
+        TrackingId: min=0, max=11, flat=0, fuzz=0, resolution=0
+        Slot: unknown range
+      Calibration:
+        touch.size.calibration: diameter
+        touch.size.scale: 10.000
+        touch.size.bias: 0.000
+        touch.size.isSummed: false
+        touch.pressure.calibration: none
+        touch.pressure.scale: 0.005
+        touch.orientation.calibration: none
+        touch.distance.calibration: none
+        touch.coverage.calibration: none
+      Viewport: displayId=0, orientation=3, logicalFrame=[0, 0, 600, 1024], physicalFrame=[0, 0, 600, 1024], deviceSize=[600, 1024]
+      SurfaceWidth: 1024px
+      SurfaceHeight: 600px
+      SurfaceLeft: 0
+      SurfaceTop: 0
+      SurfaceOrientation: 3
+      Translation and Scaling Factors:
+        XTranslate: 0.000
+        YTranslate: 0.000
+        XScale: 0.999
+        YScale: 0.998
+        XPrecision: 1.001
+        YPrecision: 1.002
+        GeometricScale: 0.999
+        PressureScale: 0.000
+        SizeScale: 0.004
+        OrientationScale: 0.000
+        DistanceScale: 0.000
+        HaveTilt: false
+        TiltXCenter: 0.000
+        TiltXScale: 0.000
+        TiltYCenter: 0.000
+        TiltYScale: 0.000
+      Last Button State: 0x00000000
+      Last Raw Touch: pointerCount=0
+      Last Cooked Touch: pointerCount=0
+  Device 5: axp22-supplyer
+    Generation: 6
+    IsExternal: false
+    Sources: 0x00000101
+    KeyboardType: 1
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Device 6: headset
+    Generation: 4
+    IsExternal: false
+    Sources: 0x00000101
+    KeyboardType: 1
+    Keyboard Input Mapper:
+      Parameters:
+        HasAssociatedDisplay: false
+        OrientationAware: false
+      KeyboardType: 1
+      Orientation: 0
+      KeyDowns: 0 keys currently down
+      MetaState: 0x0
+      DownTime: 0
+  Configuration:
+    ExcludedDeviceNames: []
+    VirtualKeyQuietTime: 0.0ms
+    PointerVelocityControlParameters: scale=1.000, lowThreshold=500.000, highThreshold=3000.000, acceleration=3.000
+    WheelVelocityControlParameters: scale=1.000, lowThreshold=15.000, highThreshold=50.000, acceleration=4.000
+    PointerGesture:
+      Enabled: true
+      QuietInterval: 100.0ms
+      DragMinSwitchSpeed: 50.0px/s
+      TapInterval: 150.0ms
+      TapDragInterval: 300.0ms
+      TapSlop: 20.0px
+      MultitouchSettleInterval: 100.0ms
+      MultitouchMinDistance: 15.0px
+      SwipeTransitionAngleCosine: 0.3
+      SwipeMaxWidthRatio: 0.2
+      MovementSpeedRatio: 0.8
+      ZoomSpeedRatio: 0.3
+
+Input Dispatcher State:
+  DispatchEnabled: 0
+  DispatchFrozen: 0
+  FocusedApplication: name='AppWindowToken{41f141f0 token=Token{41f119e0 ActivityRecord{41f11768 u0 com.android.launcher/com.android.launcher2.Launcher t1}}}', dispatchingTimeout=5000.000ms
+  FocusedWindow: name='Window{41f50a68 u0 Keyguard}'
+  TouchDown: false
+  TouchSplit: false
+  TouchDeviceId: -1
+  TouchSource: 0x00000000
+  TouchDisplayId: -1
+  TouchedWindows: <none>
+  Windows:
+    0: name='Window{41f48ba0 u0 SearchPanel}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01820100, type=0x000007e8, layer=211000, frame=[0,0][600,1024], scale=1.000000, touchableRegion=[0,0][600,1024], inputFeatures=0x00000000, ownerPid=528, ownerUid=10010, dispatchingTimeout=5000.000ms
+    1: name='Window{41ef1428 u0 NavigationBar}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=true, canReceiveKeys=false, flags=0x01840068, type=0x000007e3, layer=201000, frame=[0,976][600,1024], scale=1.000000, touchableRegion=[0,976][600,1024], inputFeatures=0x00000000, ownerPid=528, ownerUid=10010, dispatchingTimeout=5000.000ms
+    2: name='Window{41e743a8 u0 StatusBar}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=true, canReceiveKeys=false, flags=0x01840048, type=0x000007d0, layer=161000, frame=[0,0][600,25], scale=1.000000, touchableRegion=[0,0][600,25], inputFeatures=0x00000000, ownerPid=528, ownerUid=10010, dispatchingTimeout=5000.000ms
+    3: name='Window{41f50a68 u0 Keyguard}', displayId=0, paused=false, hasFocus=true, hasWallpaper=false, visible=true, canReceiveKeys=true, flags=0x0d130900, type=0x000007d4, layer=131000, frame=[0,0][600,1024], scale=1.000000, touchableRegion=[0,0][600,1024], inputFeatures=0x00000004, ownerPid=528, ownerUid=10010, dispatchingTimeout=5000.000ms
+    4: name='Window{41e706d8 u0 KeyguardScrim}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x00110900, type=0x000007ed, layer=121000, frame=[0,0][600,1024], scale=1.000000, touchableRegion=[0,0][600,1024], inputFeatures=0x00000000, ownerPid=465, ownerUid=1000, dispatchingTimeout=5000.000ms
+    5: name='Window{41e6ccc8 u0 com.android.phasebeam.PhaseBeamWallpaper}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=true, canReceiveKeys=false, flags=0x00000308, type=0x000007dd, layer=21005, frame=[0,0][600,1024], scale=1.000000, touchableRegion=[0,0][600,1024], inputFeatures=0x00000000, ownerPid=627, ownerUid=10051, dispatchingTimeout=5000.000ms
+    6: name='Window{41d5b140 u0 com.android.launcher/com.android.launcher2.Launcher}', displayId=0, paused=false, hasFocus=false, hasWallpaper=false, visible=false, canReceiveKeys=false, flags=0x01910120, type=0x00000001, layer=21000, frame=[0,0][600,976], scale=1.000000, touchableRegion=[0,25][600,976], inputFeatures=0x00000000, ownerPid=676, ownerUid=10011, dispatchingTimeout=5000.000ms
+  MonitoringChannels:
+    0: 'WindowManager (server)'
+  RecentQueue: length=10
+    DeviceResetEvent(deviceId=3), policyFlags=0x00000000, age=1237176.6ms
+    , age=1237176.6ms
+    DeviceResetEvent(deviceId=4), policyFlags=0x00000000, age=1236883.2ms
+    MotionEvent(deviceId=4, source=0x00001002, action=0, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (315.5, 753.3)]), policyFlags=0x42000000, age=1228360.0ms
+    MotionEvent(deviceId=4, source=0x00001002, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (322.5, 750.3)]), policyFlags=0x42000000, age=1228340.4ms
+    MotionEvent(deviceId=4, source=0x00001002, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (345.4, 741.3)]), policyFlags=0x42000000, age=1228322.6ms
+    MotionEvent(deviceId=4, source=0x00001002, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (382.4, 730.3)]), policyFlags=0x42000000, age=1228303.8ms
+    MotionEvent(deviceId=4, source=0x00001002, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (433.3, 721.3)]), policyFlags=0x42000000, age=1228285.0ms
+    MotionEvent(deviceId=4, source=0x00001002, action=2, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (489.2, 715.3)]), policyFlags=0x42000000, age=1228266.0ms
+    MotionEvent(deviceId=4, source=0x00001002, action=1, flags=0x00000000, metaState=0x00000000, buttonState=0x00000000, edgeFlags=0x00000000, xPrecision=1.0, yPrecision=1.0, displayId=0, pointers=[0: (489.2, 715.3)]), policyFlags=0x42000000, age=1228247.8ms
+  PendingEvent: <none>
+  InboundQueue: <empty>
+  Connections:
+    0: channelName='WindowManager (server)', windowName='monitor', status=NORMAL, monitor=true, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    1: channelName='41e706d8 KeyguardScrim (server)', windowName='Window{41e706d8 u0 KeyguardScrim}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    2: channelName='41e6ccc8 com.android.phasebeam.PhaseBeamWallpaper (server)', windowName='Window{41e6ccc8 u0 com.android.phasebeam.PhaseBeamWallpaper}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    3: channelName='41d5b140 com.android.launcher/com.android.launcher2.Launcher (server)', windowName='Window{41d5b140 u0 com.android.launcher/com.android.launcher2.Launcher}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    4: channelName='41e743a8 StatusBar (server)', windowName='Window{41e743a8 u0 StatusBar}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    5: channelName='41ef1428 NavigationBar (server)', windowName='Window{41ef1428 u0 NavigationBar}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    6: channelName='41f48ba0 SearchPanel (server)', windowName='Window{41f48ba0 u0 SearchPanel}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+    7: channelName='41f50a68 Keyguard (server)', windowName='Window{41f50a68 u0 Keyguard}', status=NORMAL, monitor=false, inputPublisherBlocked=false
+      OutboundQueue: <empty>
+      WaitQueue: <empty>
+  AppSwitch: not pending
+  Configuration:
+    KeyRepeatDelay: 50.0ms
+    KeyRepeatTimeout: 500.0ms
+
+---------------------------------------------------
+
+/system/lib/modules: No such file or directory
+/vendor/lib/modules: No such file or directory
+[net.tcp.buffersize.wifi]: [524288,1048576,2097152,262144,524288,1048576]
+[ro.wifi.channels]: []
+[wifi.interface]: [wlan0]
+[wifi.supplicant_scan_interval]: [15]
+
+--------------------------------------------------------
+
+adb reboot bootloader
+p@p-ThinkPad-X250:~$ fastboot devices
+Android Fastboot	 Android Fastboot
+
+---------------------------------------------------------
+
+adb shell getprop ro.boot.flash.locked
+adb shell getprop ro.boot.vbmeta.device_state
+adb shell getprop ro.boot.verifiedbootstate
+
+
+
+---------------------------------------------------------
+
+console=ttyS0,115200 rw init=/init loglevel=4 boot_type=0 signature=pass partitions=bootloader@nanda:env@nandb:boot@nandc:system@nandd:data@nande:misc@nandf:recovery@nandg:cache@nandh:databk@nandi:private@nandj:UDISK@nandk
+
+--------------------------------------------------------
+
+adb shell dmesg > dmesg.txt
+adb pull dmesg.txt
+adb: error: remote object 'dmesg.txt' does not exist
+
+--------------------------------------------------------
+
+adb shell zcat /proc/config.gz
+8189es 914485 0 - Live 0x00000000
+rtl8150 8115 0 - Live 0x00000000
+mcs7830 4948 0 - Live 0x00000000
+qf9700 5188 0 - Live 0x00000000
+asix 12322 0 - Live 0x00000000
+mxc400x 7575 0 - Live 0x00000000
+ptaccs 3533 0 - Live 0x00000000
+bma250 6339 0 - Live 0x00000000
+sunxi_keyboard 2749 0 - Live 0x00000000
+gslX680 140413 0 - Live 0x00000000
+gslX680new 3027535 0 - Live 0x00000000 (F)
+ft5402 84477 0 - Live 0x00000000
+ft5x_ts 65070 0 - Live 0x00000000
+inet_ctp 1981 4 gslX680,gslX680new,ft5402,ft5x_ts, Live 0x00000000
+vfe_v4l2 219284 0 - Live 0x00000000
+siv121d 9592 1 - Live 0x00000000
+vfe_subdev 3827 2 vfe_v4l2,siv121d, Live 0x00000000
+vfe_os 3175 2 vfe_v4l2,vfe_subdev, Live 0x00000000
+cci 2954 1 siv121d, Live 0x00000000
+cam_detect 52389 1 vfe_v4l2, Live 0x00000000
+videobuf_dma_contig 3821 1 vfe_v4l2, Live 0x00000000
+videobuf_core 15500 2 vfe_v4l2,videobuf_dma_contig, Live 0x00000000
+mali 174497 20 - Live 0x00000000 (O)
+lcd 30683 0 - Live 0x00000000
+disp 1047897 8 mali,lcd, Live 0x00000000
+nand 269890 8 - Live 0x00000000 (O)
+/system/bin/sh: zcat: not found
+
+-------------------------------------------
